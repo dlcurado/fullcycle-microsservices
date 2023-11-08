@@ -1,0 +1,17 @@
+###
+POST http://localhost:3000/clients HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@email.com"
+}
+
+###
+POST http://localhost:3000/clients HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "jane@email.com"
+}

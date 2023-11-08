@@ -1,0 +1,15 @@
+### jane
+POST http://localhost:3000/accounts HTTP/1.1
+Content-Type: application/json
+
+{
+  "client_id": "dfb57bc1-c943-476c-99c3-ff1d879c8fd3"
+}
+
+### john
+POST http://localhost:3000/accounts HTTP/1.1
+Content-Type: application/json
+
+{
+  "client_id": "6acb4975-fd4a-4e4b-9deb-e02cc7dfd1b4"
+}
